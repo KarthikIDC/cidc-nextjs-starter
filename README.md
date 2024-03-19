@@ -39,6 +39,15 @@ This project is built using React, Next JS, TypeScript, Tailwind & Shadcn
 [Tailwind plugin](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)<br/>
 [NextJS plugin](https://marketplace.visualstudio.com/items?itemName=PulkitGangwar.nextjs-snippets)<br/>
 
+### Typescript schema validation
+
+Schema validation provides assurance that data is strictly similar to a set of patterns, structures, and data types you have provided. It helps identify quality issues earlier in your codebase and prevents errors that arise from incomplete or incorrect data types. Having a robust schema validation can not only improve performance but you are likely less prone to errors while building production-ready large-scale applications.
+
+You can use any of the below popular schema validators in your project
+
+- [![Zod][zod-logo]][zod-url]
+- [![Yup][yup-logo]][yup-url]
+
 ### Prerequisites
 
 Make sure you have node version greater than or equal to 20.\*
@@ -89,3 +98,7 @@ npm run dev
 [tailwind-url]: https://tailwindcss.com/
 [shad-logo]: https://img.shields.io/badge/shadcn-gray?style=for-the-badge&logo=shadcnui&logoColor=white
 [shad-url]: https://ui.shadcn.com/
+[zod-logo]: https://img.shields.io/badge/zod-gray?style=for-the-badge&logo=zod&logoColor=white
+[zod-url]: https://zod.dev/
+[yup-logo]: https://img.shields.io/badge/yup-gray?style=for-the-badge
+[yup-url]: https://github.com/jquense/yup
