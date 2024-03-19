@@ -66,6 +66,15 @@ npm install
 npm run dev
 ```
 
+### Folder Structure
+
+<ul>
+<li>Screens to go under app->(screens)->#folder#</li>
+<li>Components go under app->components</li>
+<li>Shadcn components and css under app->components->ui</li>
+<li>Helper files under app->lib</li>
+</ul>
+
 <p align="left">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
