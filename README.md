@@ -8,41 +8,15 @@
   </a>
 </div>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-      <li><a href="#recommended-ide-setup">Recommended IDE Setup</a></li>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-## Demo
-
-Demo Link: [https://karthik-debit-card-management.netlify.app/](https://karthik-debit-card-management.netlify.app/)
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-This is a responsive application that is used to view and manage Debit Cards.
+This is a boilerplate for CIDC Next JS projects
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This project is built using React, Next JS, TypeScript, Tailwind & Shadcn
 
 - [![Vue][vue.js]][vue-url]
 - [![Quasar][quasar.dev]][quasar-url]
