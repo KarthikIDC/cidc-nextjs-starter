@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Karkalrag/debit-card-management">
+  <a href="https://www.concertidc.com/">
     <img src="https://github.com/KarthikIDC/cidc-nextjs-starter/assets/126231306/203b9b6f-af3f-4176-b482-8ab728378e47" alt="Logo" width="80" height="80">
   </a>
 </div>
@@ -18,8 +18,8 @@ This is a boilerplate for CIDC Next JS projects
 
 This project is built using React, Next JS, TypeScript, Tailwind & Shadcn
 
-- [![Vue][vue.js]][vue-url]
-- [![Quasar][quasar.dev]][quasar-url]
+- [![React][react.js]][vue-url]
+- [![Next JS][quasar.dev]][quasar-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +110,7 @@ Project Link: [https://github.com/Karkalrag/debit-card-management](https://githu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[react.js]: https://github.com/KarthikIDC/cidc-nextjs-starter/blob/main/public/react.png
 [vue-url]: https://vuejs.org/
 [quasar.dev]: https://img.shields.io/badge/-Quasar-blue?style=for-the-badge&logo=quasar
 [quasar-url]: https://quasar.dev/
