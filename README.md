@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://www.concertidc.com/">
-    <img src="https://github.com/KarthikIDC/cidc-nextjs-starter/assets/126231306/203b9b6f-af3f-4176-b482-8ab728378e47" alt="Logo" width="100" height="80">
+    <img src="https://github.com/KarthikIDC/cidc-nextjs-starter/assets/126231306/203b9b6f-af3f-4176-b482-8ab728378e47" alt="Logo" width="150" height="100">
   </a>
 </div>
 
