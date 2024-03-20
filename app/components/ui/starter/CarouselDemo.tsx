@@ -14,6 +14,7 @@ import ReactCard from './ReactCard';
 import TSCard from './TSCard';
 import TailwindCard from './TailwindCard';
 import ShadcnCard from './ShadcnCard';
+import GitCard from './GitCard';
 
 const texts = [
   'This is a starter project for CIDC built using React, Next JS, TypeScript, Tailwind & Shadcn',
@@ -33,6 +34,8 @@ function getComponent(index: number) {
       return <TailwindCard />;
     case 5:
       return <ShadcnCard />;
+    case 6:
+      return <GitCard />;
     default:
       return texts[0];
   }
@@ -42,7 +45,7 @@ export function CarouselDemo() {
   return (
     <Carousel className="w-full">
       <CarouselContent>
-        {Array.from({ length: 6 }).map((_, index) => (
+        {Array.from({ length: 7 }).map((_, index) => (
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
