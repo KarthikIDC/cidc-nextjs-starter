@@ -1,19 +1,45 @@
+'use client';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { CarouselDemo } from './components/ui/starter/CarouselDemo';
+import Link from 'next/link';
+import { AuroraBackground } from './components/ui/aurora-background';
+import { Button } from './components/ui/moving-border';
 
 export default function Page() {
   return (
     <main className="flex flex-col ">
-      <Image
-        src="/cidc.png"
-        width={200}
-        height={180}
-        alt="Screenshots of the dashboard project showing desktop version"
-      />
-      <div className="flex flex-col items-center justify-center p-5 text-center align-middle text-white">
-        CIDC NextJS Starter
-        <div className="m-5 w-full px-10 md:w-1/3">
-          <CarouselDemo />
+      <div className="flex flex-col items-center justify-center text-center align-middle text-white">
+        <div className="h-full w-screen">
+          <AuroraBackground className="bg-indigo-950">
+            <motion.div
+              initial={{ opacity: 0.0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: 0.3,
+                duration: 3,
+                ease: 'easeInOut',
+              }}
+              className="relative flex flex-col items-center justify-center gap-4 px-4"
+            >
+              <Image
+                src="/cidc.png"
+                width={200}
+                height={180}
+                alt="Screenshots of the dashboard project showing desktop version"
+              />
+              <div className="text-center text-2xl font-bold text-slate-950 md:text-6xl">
+                Welcome to the CIDC NextJS Starter
+              </div>
+              <div className="text-center text-xl font-bold text-neutral-300">
+                Built using React, Next JS, TypeScript, Tailwind & Shadcn
+              </div>
+              <Link href={'/react'}>
+                <Button className="border-black bg-black text-white">
+                  Begin
+                </Button>
+              </Link>
+            </motion.div>
+          </AuroraBackground>
         </div>
       </div>
     </main>
