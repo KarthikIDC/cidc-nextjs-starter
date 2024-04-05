@@ -1,9 +1,7 @@
 'use client';
-import { BackgroundBeams } from '@/app/components/ui/background-beams';
+import NavButtons from '@/app/components/navigationButtons';
 import { BackgroundGradient } from '@/app/components/ui/background-gradient';
-import { Button } from '@/app/components/ui/moving-border';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Page() {
   return (
@@ -22,10 +20,7 @@ export default function Page() {
           </p>
         </BackgroundGradient>
       </div>
-      <BackgroundBeams />
-      <Link href={'/shadcn'}>
-        <Button className="border-black bg-slate-700 text-white">Next</Button>
-      </Link>
+      <NavButtons nextPath="shadcn" />
     </div>
   );
 }

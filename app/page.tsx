@@ -27,13 +27,10 @@ export default function Page() {
                 height={180}
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="text-center text-2xl font-bold text-slate-950 md:text-6xl">
-                Welcome to the CIDC NextJS Starter
+              <div className="my-10 text-center text-2xl font-bold text-neutral-300 md:text-5xl">
+                Welcome to the NextJS starter course
               </div>
-              <div className="text-center text-xl font-bold text-neutral-300">
-                Built using React, Next JS, TypeScript, Tailwind & Shadcn
-              </div>
-              <Link href={'/react'}>
+              <Link href={'/pageOne'}>
                 <Button className="border-black bg-black text-white">
                   Begin
                 </Button>
