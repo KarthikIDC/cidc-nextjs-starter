@@ -15,13 +15,7 @@ export default function NotFound() {
         }}
       >
         <BackgroundGradient className="flex flex-col items-center justify-center rounded-[22px] bg-slate-800 p-4 dark:bg-zinc-900 sm:p-10">
-          <Image
-            src="/404.avif"
-            width={1}
-            height={1}
-            alt="Next JS"
-            className="w-fit"
-          />
+          <Image src="/404.avif" width={400} height={400} alt="Next JS" />
         </BackgroundGradient>
       </Link>
     </div>
