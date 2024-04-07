@@ -14,7 +14,7 @@ export default async function Page() {
         {getDataFromTable()} is the loneliest number that you&apos;ll ever do!
       </div>
       <Image
-        src="/3dognight.jpg"
+        src="/threedognight.jpg"
         width={250}
         height={250}
         alt="Next JS"
