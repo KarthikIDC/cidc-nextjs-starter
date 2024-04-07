@@ -17,7 +17,7 @@ export default function Page() {
           />
         </BackgroundGradient>
       </div>
-      <NavButtons />
+      <NavButtons nextPath="dataFetching" />
     </div>
   );
 }
