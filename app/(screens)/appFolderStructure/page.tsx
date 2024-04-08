@@ -7,12 +7,12 @@ export default function Page() {
   return (
     <div className="flex h-screen w-screen flex-col items-center justify-center bg-black">
       <div className="m-10">
-        <BackgroundGradient className="flex max-w-4xl flex-col items-center justify-center rounded-[22px] bg-slate-800 p-4 dark:bg-zinc-900 sm:p-10">
+        <BackgroundGradient className="flex max-w-6xl flex-col items-center justify-center rounded-[22px] bg-slate-800 p-4 dark:bg-zinc-900 sm:p-10">
           <p className="mb-5 text-2xl text-white">The App Router</p>
           <Image
             src="/appFolderStructure.avif"
-            width={1000}
-            height={1000}
+            width={700}
+            height={700}
             alt="Next JS"
           />
         </BackgroundGradient>

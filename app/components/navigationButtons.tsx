@@ -7,7 +7,7 @@ export default function NavButtons({ nextPath }: { nextPath?: string }) {
   const history = useRouter();
 
   return (
-    <div className="flex w-full max-w-sm items-center justify-between ">
+    <div className="mb-10 flex w-full max-w-sm items-center justify-between ">
       <Link
         href={''}
         onClick={() => {

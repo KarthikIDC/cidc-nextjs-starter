@@ -10,7 +10,7 @@ export default async function Page() {
 
   return (
     <div className="flex h-screen w-screen flex-col items-center justify-center bg-black">
-      <div className="m-10 text-7xl text-white">
+      <div className="m-10 text-6xl text-white">
         {getDataFromTable()} is the loneliest number that you&apos;ll ever do!
       </div>
       <Image

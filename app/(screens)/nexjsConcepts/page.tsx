@@ -36,7 +36,7 @@ content.set(
 export default function Page() {
   return (
     <div className="flex h-screen w-screen flex-col items-center justify-center bg-black">
-      <div className="m-10 max-w-4xl">
+      <div className="m-10 max-w-7xl">
         <BackgroundGradient className="flex flex-col items-center justify-center rounded-[22px] bg-slate-800 p-4 dark:bg-zinc-900 sm:p-10">
           <div className="rounded-2xl bg-neutral-50 px-10">
             <Image src="/next.png" width={150} height={150} alt="Next JS" />

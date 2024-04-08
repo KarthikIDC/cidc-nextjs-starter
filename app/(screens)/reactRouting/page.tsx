@@ -15,8 +15,8 @@ export default function Page() {
             </p>
             <Image
               src="/reactRouter.png"
-              width={800}
-              height={800}
+              width={550}
+              height={550}
               alt="Next JS"
             />
           </div>
